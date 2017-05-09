@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>Nerds</title>
+		<link rel="stylesheet" href="stylesheet/normalize.css">
+		<link rel="stylesheet" href="stylesheet/style.css">
+	</head>
+	<body>
+		<header class="main-header main-catalog-header">
+			<div class="main-header-block container clearfix">
+				<div class="main-header-logo">
+					<a href="index.html">
+						<img src="img/main-header-logo.png" alt="NERDS" width="139" height="56">
+					</a>
+				</div>
+				<nav class="main-navigation">
+				   <a href="index.html">Студия</a><!--
+				--><a href="#">Клиенты</a><!--
+				--><a href="#" class="current">Магазин</a><!--
+				--><a href="#">Контакты</a><!--
+				--><a href="#" class="cart">Корзина</a>
+				</nav>
+			</div>
+			<h1 class="main-title container">добро пожаловать в магазин готовых макетов</h1>
+		</header>
+		
+		
+		<main class="catalog container clearfix">
+			<aside class="catalog-left-column">
+				<form class="form-filter" action="#" method="post">
+					<fieldset class="filter-price filter-section clearfix">
+						<legend class="filter-section-title">Стоимость:</legend>
+						<div class="filter-price-range">
+							<div class="filter-price-min"></div>
+							<div class="filter-price-max"></div>
+						</div>
+						<label for="filter-price-from">от</label><!--
+						--><input type="text" id="filter-price-from" class="filter-price-from" name="price-from" placeholder="0"><!--
+						--><label for="filter-price-from">до</label><!--
+						--><input type="text" id="filter-price-to" class="filter-price-to" name="price-to" placeholder="15000"><!--
+					--></fieldset>
+					<fieldset class="filter-grid filter-section">
+						<legend class="filter-section-title">Сетка:</legend>
+						<input type="radio" class="filter-grid-option filter-grid-adaptive" id="filter-grid-adaptive" name="grid-key" checked>
+						<input type="radio" class="filter-grid-option filter-grid-fixed" id="filter-grid-fixed" name="grid-key">
+						<input type="radio" class="filter-grid-option filter-grid-rubber" id="filter-grid-rubber" name="grid-key">
+						<label for="filter-grid-adaptive" class="filter-label">Адаптивная</label>
+						<label for="filter-grid-fixed" class="filter-label">Фиксированная</label>
+						<label for="filter-grid-rubber" class="filter-label">Резиновая</label>
+					</fieldset>
+					<fieldset class="filter-feature filter-section">
+						<legend class="filter-section-title">Особенности:</legend>
+						<input type="checkbox" class="filter-feature-option filter-feature-slider" id="filter-feature-slider" name="filter-feature-slider" checked>
+						<input type="checkbox" class="filter-feature-option filter-feature-advantage" id="filter-feature-advantage" name="filter-feature-advantage">
+						<input type="checkbox" class="filter-feature-option filter-feature-news" id="filter-feature-news" name="filter-feature-news" checked>
+						<input type="checkbox" class="filter-feature-option filter-feature-gallery" id="filter-feature-gallery" name="filter-feature-gallery">
+						<input type="checkbox" class="filter-feature-option filter-feature-cart" id="filter-feature-cart" name="filter-feature-cart">
+						<label for="filter-feature-slider" class="filter-label">Слайдер</label>
+						<label for="filter-feature-advantage" class="filter-label">Блок преимуществ</label>
+						<label for="filter-feature-news" class="filter-label">Новости</label>
+						<label for="filter-feature-gallery" class="filter-label">Галерея</label>
+						<label for="filter-feature-cart" class="filter-label">Корзина</label>
+					</fieldset>
+					<button class="filter-show-btn btn">Показать</button>
+				</form>
+			</aside>
+			<div class="catalog-right-column">
+				<div class="catalog-sort clearfix">
+					<span>Сортировать:</span><!--
+					--><a href="#" class="catalog-sort-option catalog-sort-price">По цене</a><!--
+					--><a href="#" class="catalog-sort-option catalog-sort-type">По типу</a><!--
+					--><a href="#" class="catalog-sort-option catalog-sort-function">По функционалу</a>
+					<div class="sort-arrow-block">
+						<a href="#" class="sort-arrow sort-arrow-down sort-arrow-active"></a>
+						<a href="#" class="sort-arrow sort-arrow-up"></a>
+					</div>
+				</div>
+				<div class="catalog-box clearfix">
+					<a href="#" class="catalog-item">
+						<figure class="catalog-promo-image">
+							<img src="img/aviator-promo.jpg" alt="Aviator" width="240" height="240">
+						</figure>
+						<div class="catalog-item-info">
+							<h4 class="catalog-item-title">Aviator</h4>
+							<p class="catalog-item-desc">Интернет-магазин с личным кабинетом</p>
+							<span class="catalog-item-buy btn">10000 P.</span>
+						</div>
+					</a>
+					<a href="#" class="catalog-item">
+						<figure class="catalog-promo-image">
+							<img src="img/aviator-promo.jpg" alt="Aviator" width="240" height="240">
+						</figure>
+						<div class="catalog-item-info">
+							<h4 class="catalog-item-title">Aviator</h4>
+							<p class="catalog-item-desc">Интернет-магазин с личным кабинетом</p>
+							<span class="catalog-item-buy btn">10000 P.</span>
+						</div>
+					</a>
+					<a href="#" class="catalog-item">
+						<figure class="catalog-promo-image">
+							<img src="img/aviator-promo.jpg" alt="Aviator" width="240" height="240">
+						</figure>
+						<div class="catalog-item-info">
+							<h4 class="catalog-item-title">Aviator</h4>
+							<p class="catalog-item-desc">Интернет-магазин с личным кабинетом</p>
+							<span class="catalog-item-buy btn">10000 P.</span>
+						</div>
+					</a>
+					<a href="#" class="catalog-item">
+						<figure class="catalog-promo-image">
+							<img src="img/aviator-promo.jpg" alt="Aviator" width="240" height="240">
+						</figure>
+						<div class="catalog-item-info">
+							<h4 class="catalog-item-title">Aviator</h4>
+							<p class="catalog-item-desc">Интернет-магазин с личным кабинетом</p>
+							<span class="catalog-item-buy btn">10000 P.</span>
+						</div>
+					</a>
+					<a href="#" class="catalog-item">
+						<figure class="catalog-promo-image">
+							<img src="img/aviator-promo.jpg" alt="Aviator" width="240" height="240">
+						</figure>
+						<div class="catalog-item-info">
+							<h4 class="catalog-item-title">Aviator</h4>
+							<p class="catalog-item-desc">Интернет-магазин с личным кабинетом</p>
+							<span class="catalog-item-buy btn">10000 P.</span>
+						</div>
+					</a>
+					<a href="#" class="catalog-item">
+						<figure class="catalog-promo-image">
+							<img src="img/aviator-promo.jpg" alt="Aviator" width="240" height="240">
+						</figure>
+						<div class="catalog-item-info">
+							<h4 class="catalog-item-title">Aviator</h4>
+							<p class="catalog-item-desc">Интернет-магазин с личным кабинетом</p>
+							<span class="catalog-item-buy btn">10000 P.</span>
+						</div>
+					</a>
+				</div>
+				<div class="catalog-pagination">
+					<a href="#" class="page-number-1 page-number current-page">1</a><!--
+					--><a href="#" class="page-number-2 page-number">2</a><!--
+					--><a href="#" class="page-number-3 page-number">3</a><!--
+					--><a href="#" class="page-number-next page-number">Следующая</a>
+				</div>
+			</div>
+		</main>
+		
+		
+		<footer class="main-footer">
+			<div class="map">
+				<div class="map-location" id="map-location"></div><!--
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1998.599104365163!2d30.320894615902017!3d59.938794181876176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1472899482954" width="100%" height="415" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+				<div class="contact-wrapper container">
+					<div class="contact-block">
+						<h2 class="contact-title">NЁRDS design studio</h2>
+						<p class="contact-address">19034, Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>
+						<p class="contact-phone">тел. +7(812)275-55-35</p>
+						<a href="#" class="btn contact-btn">Напишите нам</a>
+					</div>
+				</div>
+			</div>
+		
+			<div class="footer-bottom container clearfix">
+				<div class="footer-left-column">
+					<a class="social-btn social-vk" href="#"></a><!--
+					--><a class="social-btn social-fb" href="#"></a><!--
+					--><a class="social-btn social-inst" href="#"></a>
+				</div>
+				<div class="footer-right-column">
+					<h2 class="footer-title content-title">Давайте дружить, это выгодно!</h2>
+					<p class="footer-desc">Скидка 10% для друзей из социальных сетей.</p>
+				</div>
+			</div>
+		</footer>
+		
+		<div class="feedback">
+			<button class="feedback-close-btn" ></button>
+			<form class="feedback-form" action="#" method="post">
+				<div class="feedback-user-data clearfix">
+					<div class="feedback-left-column">
+						<label class="feedback-data" for="feedback-login">Ваше имя:</label>
+						<input type="text" id="feedback-login" class="feedback-login" name="login" placeholder="представьтесь, пожалуйста" required>
+					</div>
+					<div class="feedback-right-column">
+						<label class="feedback-data" for="feedback-email">Ваше email:</label>
+						<input type="email" id="feedback-email" class="feedback-email" name="email" placeholder="для отправки ответа" required>
+					</div>
+				</div>
+				<div class="feedback-letter">
+					<label class="feedback-data" for="feedback-message">Текст письма:</label>
+					<textarea name="text" id="feedback-message" class="feedback-message" placeholder="В свободной форме" required rows="5"></textarea>
+				</div>
+				<button type="submit" class="feedback-btn btn">Отправить</button>
+			</form>
+		</div>
+	</body>
+</html>
